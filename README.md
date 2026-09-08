@@ -12,7 +12,7 @@ An end-to-end data engineering project that collects weather data from the Open-
 
 ## Pipeline
 
-```text
+===============
 Open-Meteo API
       ↓
    PySpark
@@ -26,7 +26,7 @@ Open-Meteo API
   Databricks
       ↑
    Airflow
-```
+==============
 
 ## What the pipeline does
 
@@ -48,13 +48,3 @@ The pipeline checks for:
 * NULL weather code
 * NULL timestamp
 
-## Project Structure
-
-```text
-weather-data-pipeline/
-├── airflow/
-│   └── weather_pipeline_dag.py
-├── databricks/
-│   └── weather.ipynb
-└── README.md
-```
