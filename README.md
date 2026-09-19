@@ -14,17 +14,17 @@ An end-to-end data engineering project that collects weather data from the Open-
 
 
 Open-Meteo API
-      ↓
+      ->
    PySpark
-      ↓
+      ->
     Bronze
-      ↓
+      ->
     Silver
-      ↓
+      ->
      Gold
-      ↑
+      <-
   Databricks
-      ↑
+      <-
    Airflow
 
 
